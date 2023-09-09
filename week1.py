@@ -10,7 +10,7 @@ def get_info():
     track = request.args.get('track')
     current_day = datetime.datetime.utcnow().strftime("%A")
     utc_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-    github_file_url = 'https://github.com'
+    github_file_url = 'https://github.com/AbdullahAdebayo/HNG-Week1/blob/master/week1.py'
     github_repo_url = 'https://github.com/AbdullahAdebayo/HNG-Week1.git'
 
     response = {
