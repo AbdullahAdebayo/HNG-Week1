@@ -1,0 +1,12 @@
+__pycache__/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore generated configuration file
+pyvenv.cfg
+
+# Ignore compiled binary files or libraries
+bin/
+lib/
+include/
